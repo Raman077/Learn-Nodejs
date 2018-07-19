@@ -1,2 +1,2 @@
 # Learn-Nodejs
-Path to learning NodeJs with projects
+Path to learning NodeJs
