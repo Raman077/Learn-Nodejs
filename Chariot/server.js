@@ -9,7 +9,7 @@ mongoose.connect(secret.database, { useNewUrlParser: true });
 const db = mongoose.connection;
 db.on('error', console.error.bind(console,'connection error:'));
 db.once('open', function(){
-	console.log('connected');
+	console.log('connected to the database');
 });
 
 //init the app
@@ -27,7 +27,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.get('/', function(req,res, next){
 	res.render('index',
 		{
-			title:'home'
+			title:'index'
 		});
 });
 
