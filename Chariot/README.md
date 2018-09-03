@@ -1,1 +1,1 @@
-Creating a shopping cart app
+Creating a shopping cart app using MEAN stack.
