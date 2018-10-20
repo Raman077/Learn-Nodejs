@@ -4,8 +4,12 @@ const router = express.Router();
 //get pages index
 
 
-router.get('/', function(req,res, next){
-	res.send('admin area');
+router.get('/',  function (req, res) {
+    Page.find({}).sort({sorting: 1}).exec(function (err, pages) {
+        res.render('admin/pages', {
+            pages: pages
+        });
+    });
 });
 
 
