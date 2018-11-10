@@ -1,0 +1,42 @@
+1. There are few primitive types in node -
+• String
+• Number (both integer and real)
+• Boolean
+• Undefined
+• Null
+• RegExp
+
+2. By the way, == performs automatic typecasting whereas === does not.
+
+3. JavaScript treats functions like any other objects, so we can pass them to other functions as parameters (usually,
+callbacks in Node.js):
+
+4. developers are provided with new objects/keywords:
+• process
+• global
+• module.exports and exports
+
+5. There are no classes in JavaScript because objects inherit directly from other objects, which is called prototypal
+inheritance.
+
+6. Browser Application Programming Interface Helpers
+• Array
+	• some() and every(): assertions for array items
+	• join() and concat(): convertion to a string
+	• pop(), push(), shift(), and unshift(): working with stacks and queues
+	• map(): model mapping for array items
+	• filter(): querying array items
+	• sort(): ordering items
+	• reduce(), reduceRight(): computing
+	• slice(): copying
+	• splice(): removing
+	• indexOf(): lookups of finding the value in the array
+	• reverse(): reversing the order
+	• The in operator: iteration over array items
+	• Math
+	• random(): random real number less than one
+• String
+	• substr() and substring(): extracting substrings
+	• length: length of the string
+	• indexOf(): index of finding the value in the string
+	• split(): converting the string to an array
